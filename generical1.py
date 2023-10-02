@@ -46,4 +46,6 @@ plt.plot(x,x,x,x**2,x,x**3)
 #plt.plot(x,y,ls='--') # line interlined '--'
 plt.plot(x,y,'--',x**2,y**2,'-.') # formater first dates with -- an other dates with -.
 plt.setp(lines1,color='r',linewidth=4.0) # add style of 'lines1' color red and width of 4
+ax1.text(1,-2.1,'Example Graph',style='italic') # doesnt work
+ax1.annotate("Sine",xy=(8, 0),xycoords='data',xytext=(10.5, 0),textcoords='data',arrowprops=dict(arrowstyle="->",connectionstyle="arc3"),) #text of anotation, point in graphic
 plt.show()

@@ -8,9 +8,9 @@ ax =fig.add_subplot(111)
 #plot (axis x  , axis y,  color of line, )
 ax.plot(x,y,color ="lightblue",linewidth= 3)
 #scatter ([x values on axis x][y values on axis y], color of points, mark instead of circular point) 
-ax.scatter([2,4,6],[5,15,25],color ='darkgreen',marker='^')
+ax.scatter([2,4,6],[5,15,25],color ='darkgreen',marker='^') # data to x, data to y, color, kind of mark
 # set_xlim = x value max and minim
-ax.set_xlim(1,6.5)
+ax.set_xlim(1,6.5) #x values min x values max
 #plt show = show window
 plt.savefig('eeee.png')
 plt.show()
