@@ -9,3 +9,4 @@ plt.fill_between(x, ys, 195, where=(ys > 195), facecolor='g', alpha=0.6)
 
 plt.title("Sample Visualization")
 plt.show()
+#python -m pip install PyQt5
